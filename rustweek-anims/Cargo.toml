@@ -1,0 +1,16 @@
+[package]
+name = "rustweek-anims"
+authors = ["Raph Levien <raph.levien@gmail.com>"]
+license = "MIT OR Apache-2.0"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+vello = { version = "0.2.0" }
+anyhow = "1.0.86"
+pollster = "0.3.0"
+winit = "0.30.0"
+flatten = { git = "https://github.com/linebender/gpu-stroke-expansion-paper", rev = "827ccf6" }
+vello_svg = "0.3.0"
+parley = "0.1"
+rand = "0.9"
